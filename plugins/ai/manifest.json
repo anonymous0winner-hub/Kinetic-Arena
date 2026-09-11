@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "plugins": [
+    {
+      "id": "swarm-tactician",
+      "name": "Swarm Tactician",
+      "description": "The original teamwork, survival, resource, pursuit, and predictive-fire behavior.",
+      "module": "./swarm-tactician/ai.js"
+    },
+    {
+      "id": "sentinel-vector",
+      "name": "Sentinel Vector",
+      "description": "Role-based deterministic controller with predictive aim, projectile dodging, safe-zone planning, wall lookahead, team target focus, kiting, health-aware retreat, and contextual powerup ranking.",
+      "module": "./sentinel-vector/ai.js"
+    }
+  ]
+}

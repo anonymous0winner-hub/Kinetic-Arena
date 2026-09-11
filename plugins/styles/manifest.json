@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "plugins": [
+    {
+      "id": "neon-kinetic",
+      "name": "Neon Kinetic",
+      "description": "The original dark neon arena presentation, separated from game logic.",
+      "module": "./neon-kinetic/style.js",
+      "css": [
+        "./neon-kinetic/style.css"
+      ]
+    },
+    {
+      "id": "minimal-tactical",
+      "name": "Friendly Tactical",
+      "description": "Portrait-first readable style with robot faces, member numbers, health bars, icon-labelled powerups, bright projectile trails, clear moving hazards, safe-zone danger shading, and a match countdown.",
+      "module": "./minimal-tactical/style.js",
+      "css": [
+        "./minimal-tactical/style.css"
+      ]
+    },
+    {
+      "id": "beige-glyph",
+      "name": "Beige Glyph Classic",
+      "description": "Minimal beige arena style with circular health-number bots, plain black-bordered walls, clean projectiles, and distinct color-coded powerups.",
+      "module": "./beige-glyph/style.js",
+      "css": [
+        "./beige-glyph/style.css"
+      ]
+    },
+    {
+      "id": "beige-glyph-2",
+      "name": "Beige Glyph Refined",
+      "description": "Refined beige portrait style with circular high-contrast health bots, polished impacts and projectiles, plain readable walls, and distinct rotating powerup effects.",
+      "module": "./beige-glyph-2/style.js",
+      "css": [
+        "./beige-glyph-2/style.css"
+      ]
+    },
+    {
+      "id": "flying-citadel",
+      "name": "Flying Citadel",
+      "description": "Detailed moonlit sci-fi flying-tank presentation with 3D hovercraft, compact floating health HUD chips, luminous rapid-fire projectiles, readable holographic powerups, and industrial citadel walls.",
+      "module": "./flying-citadel/style.js",
+      "css": [
+        "./flying-citadel/style.css"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,773 @@
+```gitignore
+###############################################################################
+# GENERIC DEVELOPMENT .gitignore
+#
+# Covers:
+# - Node.js / Web
+# - React / Next.js / Vite / Expo
+# - Unity
+# - Python
+# - Java / Gradle
+# - C / C++ / CMake
+# - .NET
+# - IDEs / Editors
+# - OS junk
+# - Temporary / cache files
+# - Environment / secrets
+# - Build outputs
+# - Logs
+# - Videos / recordings
+# - Archives / large generated binaries
+###############################################################################
+
+
+###############################################################################
+# ENVIRONMENT / SECRETS
+###############################################################################
+
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+
+*.env
+*.secret
+*.secrets
+
+secrets/
+.secret/
+.private/
+
+*.pem
+*.key
+*.p12
+*.pfx
+*.cer
+*.crt
+
+credentials.json
+service-account*.json
+google-services.json
+
+# Local configuration
+*.local
+config.local.*
+settings.local.*
+
+
+###############################################################################
+# NODE.JS / JAVASCRIPT / TYPESCRIPT
+###############################################################################
+
+node_modules/
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+.npm/
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnpm-store/
+
+# Keep package manager lock files committed:
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+
+###############################################################################
+# WEB FRAMEWORKS / FRONTEND
+###############################################################################
+
+# Next.js
+.next/
+out/
+
+# Vite
+.vite/
+
+# Nuxt
+.nuxt/
+.output/
+
+# Gatsby
+.cache/
+public/page-data/
+
+# SvelteKit
+.svelte-kit/
+
+# Angular
+.angular/
+
+# Parcel
+.parcel-cache/
+
+# Turbo
+.turbo/
+
+# Nx
+.nx/
+
+# Generic web builds
+dist/
+build/
+builds/
+release/
+releases/
+
+# Static/generated
+generated/
+.generated/
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Storybook
+storybook-static/
+
+
+###############################################################################
+# REACT NATIVE / EXPO
+###############################################################################
+
+.expo/
+.expo-shared/
+
+web-build/
+
+# Native generated/build folders
+android/.gradle/
+android/build/
+android/app/build/
+
+ios/build/
+ios/Pods/
+
+*.jks
+*.keystore
+
+
+###############################################################################
+# UNITY
+###############################################################################
+
+# Unity generated directories
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+
+# Unity builds
+[Bb]uild/
+[Bb]uilds/
+
+# Asset Store tools
+Assets/AssetStoreTools*
+
+# Generated Visual Studio solution/project files
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Unity crash reports
+sysinfo.txt
+
+# Unity profiler / recordings
+*.raw
+*.data
+*.snap
+*.snapshots
+
+# Burst
+[Bb]urstCache/
+
+# Addressables generated build data
+Assets/AddressableAssetsData/*/*.bin*
+
+# Do NOT ignore these:
+# Assets/
+# Packages/
+# ProjectSettings/
+# *.meta
+#
+# They are normally required for a functional Unity repository.
+
+
+###############################################################################
+# PYTHON
+###############################################################################
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pytype/
+.pyre/
+
+.venv/
+venv/
+env/
+ENV/
+
+pip-wheel-metadata/
+
+*.egg
+*.egg-info/
+.eggs/
+
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+
+.ipynb_checkpoints/
+
+# Python builds
+*.whl
+dist/
+build/
+
+
+###############################################################################
+# JAVA / KOTLIN / GRADLE
+###############################################################################
+
+.gradle/
+.gradle-cache/
+
+*.class
+*.jar
+*.war
+*.ear
+
+target/
+
+# IntelliJ generated compiler output
+out/
+
+# Android
+captures/
+.externalNativeBuild/
+.cxx/
+
+
+###############################################################################
+# C / C++ / CMAKE
+###############################################################################
+
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.so.*
+*.dll
+*.dylib
+
+*.exe
+*.out
+*.app
+
+*.ilk
+*.exp
+
+
+###############################################################################
+# .NET / C#
+###############################################################################
+
+bin/
+obj/
+
+*.user
+*.rsuser
+*.suo
+
+TestResults/
+
+artifacts/
+
+
+###############################################################################
+# IDE / EDITOR
+###############################################################################
+
+# VS Code
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.example.json
+
+# JetBrains
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Visual Studio
+.vs/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# Sublime
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*.swn
+
+# Emacs
+*~
+\#*\#
+
+
+###############################################################################
+# OPERATING SYSTEM
+###############################################################################
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Linux
+.directory
+.Trash-*/
+
+
+###############################################################################
+# TEMPORARY FILES
+###############################################################################
+
+tmp/
+temp/
+.tmp/
+.temp/
+
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+*.orig
+
+*.cache
+.cache/
+
+*.lock.tmp
+
+*.part
+*.partial
+
+*.download
+
+*.crdownload
+
+*.dmp
+*.dump
+
+~*
+*~
+
+
+###############################################################################
+# LOGS / DEBUG
+###############################################################################
+
+logs/
+log/
+
+*.log
+*.log.*
+
+debug/
+debug-output/
+
+crash/
+crashes/
+
+*.trace
+
+
+###############################################################################
+# TEST / GENERATED OUTPUT
+###############################################################################
+
+test-results/
+test-output/
+results/
+
+screenshots/
+snapshots/
+
+playwright-report/
+test-results/
+
+cypress/videos/
+cypress/screenshots/
+
+
+###############################################################################
+# RECORDINGS / VIDEO
+###############################################################################
+
+recordings/
+recording/
+videos/
+video-output/
+captures/
+renders/
+rendered/
+exports/
+
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+*.wmv
+*.flv
+*.m4v
+*.mpeg
+*.mpg
+
+
+###############################################################################
+# LARGE AUDIO / GENERATED AUDIO
+###############################################################################
+
+audio-output/
+generated-audio/
+
+*.wav
+*.flac
+*.aac
+*.m4a
+*.ogg
+
+# MP3 is often source content, so enable this if you do not want audio in Git:
+*.mp3
+
+
+###############################################################################
+# LARGE 3D / DESIGN / GENERATED ASSETS
+###############################################################################
+
+# Raw 3D project/source files
+*.blend1
+*.blend2
+*.blend@
+
+*.fbx~
+*.obj~
+*.dae~
+
+# CAD / large design files
+*.psb
+*.xcf~
+*.kra~
+*.aep
+*.aepx
+*.prproj
+
+# Generated textures/cache
+texture-cache/
+textures-cache/
+shader-cache/
+shaders-cache/
+
+# Unity/imported caches
+GI_Cache/
+LightmapCache/
+
+
+###############################################################################
+# DATABASES / LOCAL DATA
+###############################################################################
+
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+*.sqlite-journal
+
+data/local/
+local-data/
+
+redis-data/
+postgres-data/
+mysql-data/
+
+
+###############################################################################
+# MACHINE LEARNING / AI
+###############################################################################
+
+models/
+checkpoints/
+weights/
+
+*.ckpt
+*.pth
+*.pt
+*.onnx
+*.safetensors
+*.h5
+*.hdf5
+*.pb
+
+wandb/
+runs/
+
+tensorboard/
+mlruns/
+
+
+###############################################################################
+# ARCHIVES / COMPRESSED FILES
+###############################################################################
+
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+*.tgz
+*.tar.bz2
+*.tbz2
+*.gz
+*.bz2
+*.xz
+
+
+###############################################################################
+# INSTALLERS / PACKAGES / DISK IMAGES
+###############################################################################
+
+*.iso
+*.img
+*.dmg
+
+*.msi
+*.msix
+*.apk
+*.aab
+*.ipa
+
+*.deb
+*.rpm
+
+*.unitypackage
+
+
+###############################################################################
+# GENERATED DOCUMENTS / EXPORTS
+###############################################################################
+
+exports/
+output/
+outputs/
+
+# Uncomment if these are generated rather than source files:
+# *.pdf
+
+
+###############################################################################
+# LARGE IMAGE / RENDER OUTPUT
+###############################################################################
+
+renders/
+render-output/
+frames/
+video-frames/
+
+*.exr
+*.hdr
+*.tiff
+*.tif
+
+# Do NOT normally ignore normal source images:
+# *.png
+# *.jpg
+# *.jpeg
+# *.webp
+# *.svg
+
+
+###############################################################################
+# BACKUPS / COPIES
+###############################################################################
+
+backup/
+backups/
+
+*.bak
+*.bkp
+
+*_backup/
+*_backup.*
+*_old/
+*_old.*
+
+
+###############################################################################
+# LOCAL DEVELOPMENT
+###############################################################################
+
+.local/
+.local-data/
+.dev/
+.dev-cache/
+
+runtime/
+runtime-data/
+
+session/
+sessions/
+
+pid/
+*.pid
+*.pid.lock
+
+
+###############################################################################
+# GENERATED CODE / CACHE
+###############################################################################
+
+.cache-loader/
+.eslintcache
+.stylelintcache
+
+.tsbuildinfo
+*.tsbuildinfo
+
+babel-cache/
+.swc/
+.esbuild/
+
+generated-code/
+
+
+###############################################################################
+# DEPENDENCY / PACKAGE CACHES
+###############################################################################
+
+vendor/cache/
+
+bower_components/
+
+jspm_packages/
+
+
+###############################################################################
+# CLOUD / SERVERLESS GENERATED
+###############################################################################
+
+.serverless/
+.aws-sam/
+
+.vercel/
+.netlify/
+
+.firebase/
+firebase-debug.log
+
+wrangler-state/
+.wrangler/
+
+
+###############################################################################
+# DOCKER / CONTAINER LOCAL DATA
+###############################################################################
+
+docker-data/
+docker-volume/
+docker-volumes/
+
+.docker/
+
+
+###############################################################################
+# MISCELLANEOUS GENERATED BINARY FILES
+###############################################################################
+
+*.bin
+*.dat
+*.blob
+
+*.dump
+*.core
+
+core
+core.*
+
+
+###############################################################################
+# PROJECT-SPECIFIC LARGE OUTPUT DIRECTORIES
+###############################################################################
+
+large-files/
+large-assets/
+generated-assets/
+
+downloads/
+Downloads/
+
+cache/
+caches/
+
+artifacts/
+artifacts-output/
+
+recordings/
+captures/
+
+output/
+outputs/
+```

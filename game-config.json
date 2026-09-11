@@ -1,0 +1,413 @@
+{
+  "schemaVersion": 1,
+  "seed": "seed-455",
+  "timeScale": 1,
+  "targetFps": 60,
+  "pluginRegistry": {
+    "styles": "./plugins/styles/manifest.json",
+    "ai": "./plugins/ai/manifest.json",
+    "maps": "./plugins/maps/manifest.json",
+    "powerups": "./plugins/powerups/manifest.json",
+    "audio": "./plugins/audio/manifest.json"
+  },
+  "plugins": {
+    "style": "beige-glyph-2",
+    "map": "team-mixer",
+    "ai": {
+      "enabled": [
+        "sentinel-vector",
+        "swarm-tactician"
+      ],
+      "default": "sentinel-vector"
+    },
+    "powerups": {
+      "enabled": [
+        "OVERCHARGE",
+        "AEGIS",
+        "TURBO",
+        "REGEN",
+        "FOCUS"
+      ],
+      "overrides": {
+        "REGEN": {
+          "spawnWeight": 1.25
+        },
+        "AEGIS": {
+          "spawnWeight": 1.15
+        }
+      }
+    },
+    "audio": "quiet-mechanism"
+  },
+  "pluginOptions": {
+    "style": {
+      "showPowerupLabels": true,
+      "showMatchClock": true
+    },
+    "map": {
+      "matchDurationSeconds": 59
+    },
+    "ai": {
+      "sentinel-vector": {
+        "aggression": 1.08,
+        "teamCohesion": 1.1,
+        "powerupInterest": 1.15
+      },
+      "swarm-tactician": {}
+    },
+    "audio": {
+      "intensity": 0.9,
+      "shootGain": 0.07,
+      "impactGain": 0.15,
+      "deathGain": 0.23,
+      "uiGain": 0.15,
+      "shotDensity": 0.2,
+      "zoneDamageDensity": 0.4
+    }
+  },
+  "teams": [
+    {
+      "id": "cyan",
+      "label": "Blue",
+      "members": 4,
+      "defaultAI": "sentinel-vector",
+      "memberAI": {
+        "4": "swarm-tactician"
+      }
+    },
+    {
+      "id": "magenta",
+      "label": "Red",
+      "members": 4,
+      "defaultAI": "sentinel-vector",
+      "memberAI": {
+        "4": "swarm-tactician"
+      }
+    },
+    {
+      "id": "gold",
+      "label": "Yellow",
+      "members": 4,
+      "defaultAI": "sentinel-vector",
+      "memberAI": {
+        "4": "swarm-tactician"
+      }
+    },
+    {
+      "id": "lime",
+      "label": "Green",
+      "members": 4,
+      "defaultAI": "sentinel-vector",
+      "memberAI": {
+        "4": "swarm-tactician"
+      }
+    }
+  ],
+  "bots": {
+    "count": 16,
+    "spawnAttempts": 60,
+    "positionJitter": {
+      "x": 18,
+      "y": 18
+    },
+    "initialCooldownFrames": 45
+  },
+  "world": {
+    "useMapViewport": true,
+    "override": null
+  },
+  "match": {
+    "maxDurationSeconds": 60,
+    "winnerDisplayFrames": 180,
+    "autoRestart": true,
+    "restartSeedPolicy": "repeat",
+    "timeoutWinnerRule": "alive-then-power"
+  },
+  "simulation": {
+    "THRUST_FORCE": 0.18,
+    "FRICTION": 0.93,
+    "BOUNCE": 0.8,
+    "STARTING_POWER": 18,
+    "INITIAL_FOOD": 110,
+    "MAX_FOOD": 140,
+    "FOOD_SPAWN_CHANCE": 0.3,
+    "FOOD_ATTRACTION_RANGE": 150,
+    "FOOD_ATTRACTION_STRENGTH": 0.32,
+    "POWERUP_SPAWN_FRAMES": 180,
+    "MAX_POWERUPS": 2,
+    "WEAPON_COOLDOWN_BASE": 62,
+    "WEAPON_SPEED_BASE": 14,
+    "WEAPON_DAMAGE_BASE": 5,
+    "WEAPON_DAMAGE_PCT": 0.17,
+    "MAX_SHOTS_PER_DECISION": 5,
+    "MELEE_DRAIN_BASE": 10,
+    "MELEE_DRAIN_PCT": 0.5
+  },
+  "audio": {
+    "enabled": true,
+    "masterVolume": 0.68,
+    "sampleRate": 48000
+  },
+  "recording": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "allowedFps": [
+      30,
+      60
+    ],
+    "winnerHoldSeconds": 3,
+    "videoCodec": "libx264",
+    "pixelFormat": "yuv420p",
+    "crf": 18,
+    "preset": "veryfast",
+    "audioCodec": "aac",
+    "audioBitrate": "192k",
+    "mode": "offline-replay",
+    "outputFormat": "mp4",
+    "captureSpeed": 0.5,
+    "videoBitsPerSecond": 18000000,
+    "mimeTypes": [
+      "video/webm;codecs=vp8",
+      "video/webm;codecs=vp9",
+      "video/webm"
+    ],
+    "webmAudioCodec": "libopus",
+    "retryOnStall": true,
+    "maximumFrameGapMs": 180,
+    "maximumCatchUpRatio": 0.005,
+    "minimumCaptureSpeed": 0.3333333333,
+    "sourceCodec": "auto",
+    "audioSyncOffsetMs": 0,
+    "renderAtOutputFps": true,
+    "encoderThreads": 6,
+    "hardwareEncoder": "auto",
+    "hardwareQuality": 18,
+    "renderWorkers": 6,
+    "maximumRenderWorkers": 6,
+    "deliveryPreset": "instagram-hd-30",
+    "deliveryPresets": {
+      "master": {
+        "description": "High-quality local master with no Instagram-specific bitrate ceiling.",
+        "format": "mp4",
+        "fps": 60,
+        "videoCodec": "libx264",
+        "profile": "high",
+        "level": "4.2",
+        "pixelFormat": "yuv420p",
+        "crf": 18,
+        "encoderPreset": "veryfast",
+        "maximumBitrate": null,
+        "bufferSize": null,
+        "colorPrimaries": "bt709",
+        "colorTransfer": "bt709",
+        "colorSpace": "bt709",
+        "colorRange": "tv",
+        "audioCodec": "aac",
+        "audioSampleRate": 48000,
+        "audioChannels": 2,
+        "audioBitrate": "192k",
+        "audioPeakLimit": 0.891,
+        "keyframeIntervalSeconds": 2
+      },
+      "instagram-hd-30": {
+        "description": "Quality-first Instagram/Reels export. Recommended for sharp text and clean outlines.",
+        "format": "mp4",
+        "fps": 30,
+        "videoCodec": "libx264",
+        "profile": "high",
+        "level": "4.1",
+        "pixelFormat": "yuv420p",
+        "crf": 16,
+        "encoderPreset": "medium",
+        "maximumBitrate": "14M",
+        "bufferSize": "28M",
+        "colorPrimaries": "bt709",
+        "colorTransfer": "bt709",
+        "colorSpace": "bt709",
+        "colorRange": "tv",
+        "audioCodec": "aac",
+        "audioSampleRate": 48000,
+        "audioChannels": 2,
+        "audioBitrate": "192k",
+        "audioPeakLimit": 0.891,
+        "keyframeIntervalSeconds": 2
+      },
+      "instagram-smooth-60": {
+        "description": "Smooth-motion Instagram/Reels export with a larger bitrate ceiling.",
+        "format": "mp4",
+        "fps": 60,
+        "videoCodec": "libx264",
+        "profile": "high",
+        "level": "4.2",
+        "pixelFormat": "yuv420p",
+        "crf": 16,
+        "encoderPreset": "fast",
+        "maximumBitrate": "24M",
+        "bufferSize": "48M",
+        "colorPrimaries": "bt709",
+        "colorTransfer": "bt709",
+        "colorSpace": "bt709",
+        "colorRange": "tv",
+        "audioCodec": "aac",
+        "audioSampleRate": 48000,
+        "audioChannels": 2,
+        "audioBitrate": "192k",
+        "audioPeakLimit": 0.891,
+        "keyframeIntervalSeconds": 2
+      }
+    }
+  },
+  "seedFinder": {
+    "evaluator": "engaging-v2",
+    "sampleEveryFrames": 30,
+    "maxFrames": 3600,
+    "topK": 20,
+    "minimumScore": 190,
+    "minimumTier": "A",
+    "selectedLimit": 20,
+    "parallelWorkers": 6,
+    "logicOnly": true,
+    "retainAllResults": false,
+    "scoring": {
+      "powerupStrengthWeight": 0.85,
+      "powerupIdMultipliers": {
+        "OVERCHARGE": 1.35,
+        "AEGIS": 1.0,
+        "FOCUS": 0.9,
+        "TURBO": 0.75,
+        "REGEN": 0.7
+      },
+      "dominanceSwingMinimumDifference": 100,
+      "dominanceSwingMinimumRatio": 1.35,
+      "categories": {
+        "collectiveNearDeath": {
+          "multiplier": 1.0,
+          "constant": 0,
+          "bonusScale": 1.0
+        },
+        "underdogComeback": {
+          "multiplier": 1.0,
+          "constant": 0,
+          "bonusScale": 1.0
+        },
+        "clutchFinish": {
+          "multiplier": 0.2,
+          "constant": 0,
+          "bonusScale": 0
+        },
+        "dominantFavoriteUpset": {
+          "multiplier": 0.5,
+          "constant": 0,
+          "bonusScale": 0.5
+        },
+        "leadVolatility": {
+          "multiplier": 2.0,
+          "constant": 0,
+          "bonusScale": 1.0
+        },
+        "dominanceSwings": {
+          "multiplier": 2.0,
+          "constant": 0,
+          "bonusScale": 1.0
+        },
+        "lateUncertainty": {
+          "multiplier": 1.5,
+          "constant": 0,
+          "bonusScale": 1.0
+        },
+        "lateReversal": {
+          "multiplier": 1.0,
+          "constant": 0,
+          "bonusScale": 1.0
+        },
+        "actionArc": {
+          "multiplier": 1.0,
+          "constant": 0,
+          "bonusScale": 1.0
+        },
+        "duration": {
+          "multiplier": 1.0,
+          "constant": 0,
+          "bonusScale": 0
+        },
+        "resolvedWinner": {
+          "multiplier": 0.25,
+          "constant": 0,
+          "bonusScale": 0.25
+        },
+        "predictabilityPenalty": {
+          "multiplier": 1.0,
+          "constant": 0,
+          "bonusScale": 1.0
+        },
+        "stagnationPenalty": {
+          "multiplier": 1.0,
+          "constant": 0,
+          "bonusScale": 1.0
+        }
+      }
+    }
+  },
+  "displayText": {
+    "text": "Guess the winner",
+    "startSeconds": 0.5,
+    "endSeconds": 10,
+    "x": 540,
+    "y": 300
+  },
+  "ui": {
+    "teamPanels": {
+      "enabled": true,
+      "width": 272,
+      "height": 92,
+      "marginX": 40,
+      "marginY": 40,
+      "cornerRadius": 9,
+      "colorBarWidth": 14,
+      "teamNameFontSize": 22,
+      "healthFontSize": 35,
+      "activeFontSize": 19,
+      "teamNameX": 31,
+      "teamNameY": 28,
+      "healthX": 31,
+      "healthY": 68,
+      "activeRightPadding": 17,
+      "activeY": 69
+    },
+    "winnerOverlay": {
+      "enabled": true,
+      "width": 680,
+      "height": 154,
+      "fontSize": 62,
+      "colorBarWidth": 18,
+      "cornerRadius": 13,
+      "centerY": 960
+    },
+    "botHealth": {
+      "minimumFontSize": 18,
+      "maximumFontSize": 34
+    },
+    "powerupLabels": {
+      "fontSize": 18,
+      "offsetY": 24,
+      "fontWeight": 800
+    },
+    "displayText": {
+      "fontSize": 54,
+      "minimumFontSize": 34,
+      "maximumFontSize": 60,
+      "panelPaddingX": 58,
+      "panelHeightScale": 1.58
+    },
+    "matchClock": {
+      "fontSize": 35,
+      "boxWidth": 226,
+      "boxHeight": 66,
+      "y": 28,
+      "textY": 27,
+      "progressY": 49,
+      "progressHeight": 8
+    }
+  }
+}

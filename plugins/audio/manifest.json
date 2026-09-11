@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "plugins": [
+    {
+      "id": "minimal-impact",
+      "name": "Minimal Impact",
+      "module": "./minimal-impact/audio.js",
+      "description": "Restrained synthesized arena cues designed for dense portrait matches."
+    },
+    {
+      "id": "silent",
+      "name": "Silent",
+      "module": "./silent/audio.js",
+      "description": "No-op audio plugin for silent exports and performance tests."
+    },
+    {
+      "id": "quiet-mechanism",
+      "name": "Quiet Mechanism",
+      "module": "./quiet-mechanism/audio.js",
+      "description": "A restrained mechanical sound set with dry shot ticks, muted impacts, resonant deaths, and calm tonal state cues."
+    }
+  ]
+}

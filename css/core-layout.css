@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    user-select: none;
+}
+
+body {
+    position: relative;
+}
+
+#arena-viewport {
+    position: absolute;
+    overflow: hidden;
+}
+
+#gameCanvas {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+#ui-layer {
+    position: absolute;
+    inset: 0;
+    z-index: 10;
+    pointer-events: none;
+}
+
+#score-grid {
+    position: absolute;
+    inset: 0;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: repeat(2, minmax(0, 1fr));
+}
+
+.score-box {
+    align-self: start;
+    justify-self: start;
+}
+
+.score-box[data-corner="top-right"] {
+    justify-self: end;
+    text-align: right;
+}
+
+.score-box[data-corner="bottom-left"] {
+    align-self: end;
+}
+
+.score-box[data-corner="bottom-right"] {
+    align-self: end;
+    justify-self: end;
+    text-align: right;
+}
+
+#zone-status,
+#status-text,
+#loading-status {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+#zone-status {
+    top: 7.5rem;
+}
+
+#status-text {
+    top: 42%;
+}
+
+#loading-status {
+    top: 50%;
+}
+
+[hidden] {
+    display: none !important;
+}
+
+/* Optional secondary score information. Legacy styles remain visually unchanged. */
+.score-count {
+    display: none;
+}
+
+
+/* Offline automation is simulation-frame driven; wall-clock CSS timing would break determinism. */
+html[data-kinetic-automation] *,
+html[data-kinetic-automation] *::before,
+html[data-kinetic-automation] *::after {
+    animation: none !important;
+    transition: none !important;
+    caret-color: transparent !important;
+}
+
+/* Offline replay screenshots must contain only the composed game canvas. */
+html[data-kinetic-automation="offline-replay"] #ui-layer {
+    display: none !important;
+}

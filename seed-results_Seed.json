@@ -1,0 +1,2025 @@
+{
+  "evaluatorId": "engaging-v2",
+  "criteria": {
+    "minimumScore": 190,
+    "minimumTier": "A",
+    "selectedLimit": 20
+  },
+  "execution": {
+    "logicOnly": true,
+    "parallelWorkers": 6,
+    "batchSize": 20,
+    "sampleEveryFrames": 30,
+    "elapsedSeconds": 1302.309,
+    "seedsPerSecond": 3.839
+  },
+  "searched": 5000,
+  "statistics": {
+    "searched": 5000,
+    "selected": 20,
+    "maximumScore": 878.079,
+    "minimumScore": 0,
+    "averageScore": 367.583,
+    "medianScore": 373.908,
+    "tiers": {
+      "S": 3093,
+      "A": 793,
+      "B": 579,
+      "C": 180,
+      "D": 355
+    }
+  },
+  "selected": [
+    {
+      "seed": "seed-3996",
+      "evaluatorId": "engaging-v2",
+      "score": 878.079,
+      "tier": "S",
+      "summary": {
+        "winnerTeamId": "lime",
+        "endedBy": "elimination",
+        "durationFrames": 2437,
+        "finalWinnerHealthPercent": 250.694,
+        "minimumWinnerHealthPercent": 2.083,
+        "worstWinnerDeficitFactor": 147.176,
+        "leadChanges": 5,
+        "flags": [
+          "near-extinction-survival",
+          "major-comeback",
+          "one-vs-many-clutch",
+          "favorite-collapsed",
+          "late-reversal",
+          "volatile-lead",
+          "major-dominance-swing",
+          "high-late-uncertainty"
+        ]
+      },
+      "final": {
+        "frameCount": 2460,
+        "matchEndFrame": 2437,
+        "winnerTeamId": "lime",
+        "endedBy": "elimination",
+        "teams": [
+          {
+            "id": "cyan",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          },
+          {
+            "id": "magenta",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          },
+          {
+            "id": "gold",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          },
+          {
+            "id": "lime",
+            "alive": 1,
+            "members": 4,
+            "health": 180.5,
+            "powerupStrength": 202.77750000000003,
+            "effectiveStrength": 352.860875
+          }
+        ]
+      },
+      "rank": 1,
+      "selected": true
+    },
+    {
+      "seed": "seed-4710",
+      "evaluatorId": "engaging-v2",
+      "score": 870.582,
+      "tier": "S",
+      "summary": {
+        "winnerTeamId": "lime",
+        "endedBy": "elimination",
+        "durationFrames": 2356,
+        "finalWinnerHealthPercent": 326.215,
+        "minimumWinnerHealthPercent": 18.75,
+        "worstWinnerDeficitFactor": 21.04,
+        "leadChanges": 4,
+        "flags": [
+          "near-extinction-survival",
+          "major-comeback",
+          "one-vs-many-clutch",
+          "favorite-collapsed",
+          "late-reversal",
+          "volatile-lead",
+          "major-dominance-swing",
+          "high-late-uncertainty"
+        ]
+      },
+      "final": {
+        "frameCount": 2370,
+        "matchEndFrame": 2356,
+        "winnerTeamId": "lime",
+        "endedBy": "elimination",
+        "teams": [
+          {
+            "id": "cyan",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          },
+          {
+            "id": "magenta",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          },
+          {
+            "id": "gold",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          },
+          {
+            "id": "lime",
+            "alive": 1,
+            "members": 4,
+            "health": 234.875,
+            "powerupStrength": 151.8375,
+            "effectiveStrength": 363.936875
+          }
+        ]
+      },
+      "rank": 2,
+      "selected": true
+    },
+    {
+      "seed": "seed-3983",
+      "evaluatorId": "engaging-v2",
+      "score": 869.071,
+      "tier": "S",
+      "summary": {
+        "winnerTeamId": "lime",
+        "endedBy": "elimination",
+        "durationFrames": 2640,
+        "finalWinnerHealthPercent": 197.786,
+        "minimumWinnerHealthPercent": 3.819,
+        "worstWinnerDeficitFactor": 116.766,
+        "leadChanges": 3,
+        "flags": [
+          "near-extinction-survival",
+          "major-comeback",
+          "one-vs-many-clutch",
+          "favorite-collapsed",
+          "late-reversal",
+          "volatile-lead",
+          "major-dominance-swing"
+        ]
+      },
+      "final": {
+        "frameCount": 2640,
+        "matchEndFrame": 2640,
+        "winnerTeamId": "lime",
+        "endedBy": "elimination",
+        "teams": [
+          {
+            "id": "cyan",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          },
+          {
+            "id": "magenta",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          },
+          {
+            "id": "gold",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          },
+          {
+            "id": "lime",
+            "alive": 1,
+            "members": 4,
+            "health": 142.40625,
+            "powerupStrength": 168.58968750000003,
+            "effectiveStrength": 285.70748437500004
+          }
+        ]
+      },
+      "rank": 3,
+      "selected": true
+    },
+    {
+      "seed": "seed-4565",
+      "evaluatorId": "engaging-v2",
+      "score": 861.375,
+      "tier": "S",
+      "summary": {
+        "winnerTeamId": "cyan",
+        "endedBy": "elimination",
+        "durationFrames": 3240,
+        "finalWinnerHealthPercent": 163.628,
+        "minimumWinnerHealthPercent": 5.556,
+        "worstWinnerDeficitFactor": 86.497,
+        "leadChanges": 8,
+        "flags": [
+          "near-extinction-survival",
+          "major-comeback",
+          "one-vs-many-clutch",
+          "favorite-collapsed",
+          "late-reversal",
+          "volatile-lead",
+          "major-dominance-swing",
+          "high-late-uncertainty"
+        ]
+      },
+      "final": {
+        "frameCount": 3240,
+        "matchEndFrame": 3240,
+        "winnerTeamId": "cyan",
+        "endedBy": "elimination",
+        "teams": [
+          {
+            "id": "cyan",
+            "alive": 1,
+            "members": 4,
+            "health": 117.8125,
+            "powerupStrength": 127.12500000000001,
+            "effectiveStrength": 225.86875
+          },
+          {
+            "id": "magenta",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          },
+          {
+            "id": "gold",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          },
+          {
+            "id": "lime",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          }
+        ]
+      },
+      "rank": 4,
+      "selected": true
+    },
+    {
+      "seed": "seed-4476",
+      "evaluatorId": "engaging-v2",
+      "score": 855.021,
+      "tier": "S",
+      "summary": {
+        "winnerTeamId": "lime",
+        "endedBy": "elimination",
+        "durationFrames": 2611,
+        "finalWinnerHealthPercent": 289.063,
+        "minimumWinnerHealthPercent": 0.694,
+        "worstWinnerDeficitFactor": 673.507,
+        "leadChanges": 4,
+        "flags": [
+          "near-extinction-survival",
+          "major-comeback",
+          "one-vs-many-clutch",
+          "favorite-collapsed",
+          "late-reversal",
+          "volatile-lead",
+          "major-dominance-swing",
+          "high-late-uncertainty"
+        ]
+      },
+      "final": {
+        "frameCount": 2640,
+        "matchEndFrame": 2611,
+        "winnerTeamId": "lime",
+        "endedBy": "elimination",
+        "teams": [
+          {
+            "id": "cyan",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          },
+          {
+            "id": "magenta",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          },
+          {
+            "id": "gold",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          },
+          {
+            "id": "lime",
+            "alive": 1,
+            "members": 4,
+            "health": 208.125,
+            "powerupStrength": 282.10968750000006,
+            "effectiveStrength": 447.91823437500005
+          }
+        ]
+      },
+      "rank": 5,
+      "selected": true
+    },
+    {
+      "seed": "seed-4152",
+      "evaluatorId": "engaging-v2",
+      "score": 853.604,
+      "tier": "S",
+      "summary": {
+        "winnerTeamId": "gold",
+        "endedBy": "elimination",
+        "durationFrames": 3250,
+        "finalWinnerHealthPercent": 344.878,
+        "minimumWinnerHealthPercent": 0.694,
+        "worstWinnerDeficitFactor": 446.224,
+        "leadChanges": 2,
+        "flags": [
+          "near-extinction-survival",
+          "major-comeback",
+          "one-vs-many-clutch",
+          "favorite-collapsed",
+          "late-reversal",
+          "major-dominance-swing"
+        ]
+      },
+      "final": {
+        "frameCount": 3270,
+        "matchEndFrame": 3250,
+        "winnerTeamId": "gold",
+        "endedBy": "elimination",
+        "teams": [
+          {
+            "id": "cyan",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          },
+          {
+            "id": "magenta",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          },
+          {
+            "id": "gold",
+            "alive": 1,
+            "members": 4,
+            "health": 248.3125,
+            "powerupStrength": 297.89343750000006,
+            "effectiveStrength": 501.52192187500003
+          },
+          {
+            "id": "lime",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          }
+        ]
+      },
+      "rank": 6,
+      "selected": true
+    },
+    {
+      "seed": "seed-1736",
+      "evaluatorId": "engaging-v2",
+      "score": 853.029,
+      "tier": "S",
+      "summary": {
+        "winnerTeamId": "cyan",
+        "endedBy": "elimination",
+        "durationFrames": 2741,
+        "finalWinnerHealthPercent": 138.194,
+        "minimumWinnerHealthPercent": 13.021,
+        "worstWinnerDeficitFactor": 35.924,
+        "leadChanges": 4,
+        "flags": [
+          "near-extinction-survival",
+          "major-comeback",
+          "one-vs-many-clutch",
+          "favorite-collapsed",
+          "late-reversal",
+          "volatile-lead",
+          "major-dominance-swing"
+        ]
+      },
+      "final": {
+        "frameCount": 2760,
+        "matchEndFrame": 2741,
+        "winnerTeamId": "cyan",
+        "endedBy": "elimination",
+        "teams": [
+          {
+            "id": "cyan",
+            "alive": 1,
+            "members": 4,
+            "health": 99.5,
+            "powerupStrength": 257.33250000000004,
+            "effectiveStrength": 318.232625
+          },
+          {
+            "id": "magenta",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          },
+          {
+            "id": "gold",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          },
+          {
+            "id": "lime",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          }
+        ]
+      },
+      "rank": 7,
+      "selected": true
+    },
+    {
+      "seed": "seed-3654",
+      "evaluatorId": "engaging-v2",
+      "score": 847.227,
+      "tier": "S",
+      "summary": {
+        "winnerTeamId": "cyan",
+        "endedBy": "elimination",
+        "durationFrames": 2695,
+        "finalWinnerHealthPercent": 314.366,
+        "minimumWinnerHealthPercent": 15.278,
+        "worstWinnerDeficitFactor": 33.507,
+        "leadChanges": 4,
+        "flags": [
+          "near-extinction-survival",
+          "major-comeback",
+          "one-vs-many-clutch",
+          "favorite-collapsed",
+          "late-reversal",
+          "volatile-lead",
+          "major-dominance-swing"
+        ]
+      },
+      "final": {
+        "frameCount": 2700,
+        "matchEndFrame": 2695,
+        "winnerTeamId": "cyan",
+        "endedBy": "elimination",
+        "teams": [
+          {
+            "id": "cyan",
+            "alive": 1,
+            "members": 4,
+            "health": 226.34375,
+            "powerupStrength": 246.52473214285715,
+            "effectiveStrength": 435.8897723214286
+          },
+          {
+            "id": "magenta",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          },
+          {
+            "id": "gold",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          },
+          {
+            "id": "lime",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          }
+        ]
+      },
+      "rank": 8,
+      "selected": true
+    },
+    {
+      "seed": "seed-2849",
+      "evaluatorId": "engaging-v2",
+      "score": 846.976,
+      "tier": "S",
+      "summary": {
+        "winnerTeamId": "lime",
+        "endedBy": "elimination",
+        "durationFrames": 2772,
+        "finalWinnerHealthPercent": 178.993,
+        "minimumWinnerHealthPercent": 6.944,
+        "worstWinnerDeficitFactor": 50.398,
+        "leadChanges": 5,
+        "flags": [
+          "near-extinction-survival",
+          "major-comeback",
+          "one-vs-many-clutch",
+          "favorite-collapsed",
+          "late-reversal",
+          "volatile-lead",
+          "major-dominance-swing"
+        ]
+      },
+      "final": {
+        "frameCount": 2790,
+        "matchEndFrame": 2772,
+        "winnerTeamId": "lime",
+        "endedBy": "elimination",
+        "teams": [
+          {
+            "id": "cyan",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          },
+          {
+            "id": "magenta",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          },
+          {
+            "id": "gold",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          },
+          {
+            "id": "lime",
+            "alive": 1,
+            "members": 4,
+            "health": 128.875,
+            "powerupStrength": 236.94093750000002,
+            "effectiveStrength": 330.274796875
+          }
+        ]
+      },
+      "rank": 9,
+      "selected": true
+    },
+    {
+      "seed": "seed-3624",
+      "evaluatorId": "engaging-v2",
+      "score": 846.725,
+      "tier": "S",
+      "summary": {
+        "winnerTeamId": "magenta",
+        "endedBy": "elimination",
+        "durationFrames": 3045,
+        "finalWinnerHealthPercent": 77.387,
+        "minimumWinnerHealthPercent": 19.444,
+        "worstWinnerDeficitFactor": 26.381,
+        "leadChanges": 4,
+        "flags": [
+          "near-extinction-survival",
+          "major-comeback",
+          "one-vs-many-clutch",
+          "favorite-collapsed",
+          "late-reversal",
+          "volatile-lead",
+          "major-dominance-swing",
+          "high-late-uncertainty"
+        ]
+      },
+      "final": {
+        "frameCount": 3060,
+        "matchEndFrame": 3045,
+        "winnerTeamId": "magenta",
+        "endedBy": "elimination",
+        "teams": [
+          {
+            "id": "cyan",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          },
+          {
+            "id": "magenta",
+            "alive": 1,
+            "members": 4,
+            "health": 55.71875,
+            "powerupStrength": 196.62160714285716,
+            "effectiveStrength": 222.8471160714286
+          },
+          {
+            "id": "gold",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          },
+          {
+            "id": "lime",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          }
+        ]
+      },
+      "rank": 10,
+      "selected": true
+    },
+    {
+      "seed": "seed-1465",
+      "evaluatorId": "engaging-v2",
+      "score": 843.418,
+      "tier": "S",
+      "summary": {
+        "winnerTeamId": "gold",
+        "endedBy": "elimination",
+        "durationFrames": 3105,
+        "finalWinnerHealthPercent": 121.007,
+        "minimumWinnerHealthPercent": 14.583,
+        "worstWinnerDeficitFactor": 22.479,
+        "leadChanges": 5,
+        "flags": [
+          "near-extinction-survival",
+          "major-comeback",
+          "one-vs-many-clutch",
+          "favorite-collapsed",
+          "late-reversal",
+          "volatile-lead",
+          "major-dominance-swing",
+          "high-late-uncertainty"
+        ]
+      },
+      "final": {
+        "frameCount": 3120,
+        "matchEndFrame": 3105,
+        "winnerTeamId": "gold",
+        "endedBy": "elimination",
+        "teams": [
+          {
+            "id": "cyan",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          },
+          {
+            "id": "magenta",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          },
+          {
+            "id": "gold",
+            "alive": 1,
+            "members": 4,
+            "health": 87.125,
+            "powerupStrength": 79.62937500000001,
+            "effectiveStrength": 154.80996875
+          },
+          {
+            "id": "lime",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          }
+        ]
+      },
+      "rank": 11,
+      "selected": true
+    },
+    {
+      "seed": "seed-1450",
+      "evaluatorId": "engaging-v2",
+      "score": 842.833,
+      "tier": "S",
+      "summary": {
+        "winnerTeamId": "magenta",
+        "endedBy": "elimination",
+        "durationFrames": 3307,
+        "finalWinnerHealthPercent": 153.95,
+        "minimumWinnerHealthPercent": 20.833,
+        "worstWinnerDeficitFactor": 14.648,
+        "leadChanges": 3,
+        "flags": [
+          "major-comeback",
+          "one-vs-many-clutch",
+          "favorite-collapsed",
+          "late-reversal",
+          "volatile-lead",
+          "major-dominance-swing"
+        ]
+      },
+      "final": {
+        "frameCount": 3330,
+        "matchEndFrame": 3307,
+        "winnerTeamId": "magenta",
+        "endedBy": "elimination",
+        "teams": [
+          {
+            "id": "cyan",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          },
+          {
+            "id": "magenta",
+            "alive": 1,
+            "members": 4,
+            "health": 110.84375,
+            "powerupStrength": 179.27839285714285,
+            "effectiveStrength": 263.2303839285714
+          },
+          {
+            "id": "gold",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          },
+          {
+            "id": "lime",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          }
+        ]
+      },
+      "rank": 12,
+      "selected": true
+    },
+    {
+      "seed": "seed-4981",
+      "evaluatorId": "engaging-v2",
+      "score": 840.03,
+      "tier": "S",
+      "summary": {
+        "winnerTeamId": "gold",
+        "endedBy": "elimination",
+        "durationFrames": 2756,
+        "finalWinnerHealthPercent": 90.408,
+        "minimumWinnerHealthPercent": 15.972,
+        "worstWinnerDeficitFactor": 14.587,
+        "leadChanges": 4,
+        "flags": [
+          "near-extinction-survival",
+          "major-comeback",
+          "one-vs-many-clutch",
+          "favorite-collapsed",
+          "late-reversal",
+          "volatile-lead",
+          "major-dominance-swing"
+        ]
+      },
+      "final": {
+        "frameCount": 2760,
+        "matchEndFrame": 2756,
+        "winnerTeamId": "gold",
+        "endedBy": "elimination",
+        "teams": [
+          {
+            "id": "cyan",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          },
+          {
+            "id": "magenta",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          },
+          {
+            "id": "gold",
+            "alive": 1,
+            "members": 4,
+            "health": 65.09375,
+            "powerupStrength": 261.21736607142856,
+            "effectiveStrength": 287.12851116071425
+          },
+          {
+            "id": "lime",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          }
+        ]
+      },
+      "rank": 13,
+      "selected": true
+    },
+    {
+      "seed": "seed-4646",
+      "evaluatorId": "engaging-v2",
+      "score": 838.664,
+      "tier": "S",
+      "summary": {
+        "winnerTeamId": "gold",
+        "endedBy": "elimination",
+        "durationFrames": 2836,
+        "finalWinnerHealthPercent": 203.255,
+        "minimumWinnerHealthPercent": 23.264,
+        "worstWinnerDeficitFactor": 12.247,
+        "leadChanges": 6,
+        "flags": [
+          "major-comeback",
+          "one-vs-many-clutch",
+          "favorite-collapsed",
+          "late-reversal",
+          "volatile-lead",
+          "major-dominance-swing",
+          "high-late-uncertainty"
+        ]
+      },
+      "final": {
+        "frameCount": 2850,
+        "matchEndFrame": 2836,
+        "winnerTeamId": "gold",
+        "endedBy": "elimination",
+        "teams": [
+          {
+            "id": "cyan",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          },
+          {
+            "id": "magenta",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          },
+          {
+            "id": "gold",
+            "alive": 1,
+            "members": 4,
+            "health": 146.34375,
+            "powerupStrength": 241.81473214285714,
+            "effectiveStrength": 351.8862723214286
+          },
+          {
+            "id": "lime",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          }
+        ]
+      },
+      "rank": 14,
+      "selected": true
+    },
+    {
+      "seed": "seed-2452",
+      "evaluatorId": "engaging-v2",
+      "score": 832.399,
+      "tier": "S",
+      "summary": {
+        "winnerTeamId": "magenta",
+        "endedBy": "elimination",
+        "durationFrames": 3186,
+        "finalWinnerHealthPercent": 257.813,
+        "minimumWinnerHealthPercent": 9.028,
+        "worstWinnerDeficitFactor": 46.256,
+        "leadChanges": 5,
+        "flags": [
+          "near-extinction-survival",
+          "major-comeback",
+          "one-vs-many-clutch",
+          "favorite-collapsed",
+          "late-reversal",
+          "volatile-lead",
+          "major-dominance-swing",
+          "high-late-uncertainty"
+        ]
+      },
+      "final": {
+        "frameCount": 3210,
+        "matchEndFrame": 3186,
+        "winnerTeamId": "magenta",
+        "endedBy": "elimination",
+        "teams": [
+          {
+            "id": "cyan",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          },
+          {
+            "id": "magenta",
+            "alive": 1,
+            "members": 4,
+            "health": 185.625,
+            "powerupStrength": 172.6425,
+            "effectiveStrength": 332.371125
+          },
+          {
+            "id": "gold",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          },
+          {
+            "id": "lime",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          }
+        ]
+      },
+      "rank": 15,
+      "selected": true
+    },
+    {
+      "seed": "seed-4279",
+      "evaluatorId": "engaging-v2",
+      "score": 828.56,
+      "tier": "S",
+      "summary": {
+        "winnerTeamId": "lime",
+        "endedBy": "elimination",
+        "durationFrames": 3083,
+        "finalWinnerHealthPercent": 295.486,
+        "minimumWinnerHealthPercent": 2.083,
+        "worstWinnerDeficitFactor": 208.761,
+        "leadChanges": 3,
+        "flags": [
+          "near-extinction-survival",
+          "major-comeback",
+          "favorite-collapsed",
+          "late-reversal",
+          "volatile-lead",
+          "major-dominance-swing"
+        ]
+      },
+      "final": {
+        "frameCount": 3090,
+        "matchEndFrame": 3083,
+        "winnerTeamId": "lime",
+        "endedBy": "elimination",
+        "teams": [
+          {
+            "id": "cyan",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          },
+          {
+            "id": "magenta",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          },
+          {
+            "id": "gold",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          },
+          {
+            "id": "lime",
+            "alive": 1,
+            "members": 4,
+            "health": 212.75,
+            "powerupStrength": 192.2840625,
+            "effectiveStrength": 376.191453125
+          }
+        ]
+      },
+      "rank": 16,
+      "selected": true
+    },
+    {
+      "seed": "seed-4122",
+      "evaluatorId": "engaging-v2",
+      "score": 827.672,
+      "tier": "S",
+      "summary": {
+        "winnerTeamId": "gold",
+        "endedBy": "elimination",
+        "durationFrames": 2775,
+        "finalWinnerHealthPercent": 142.448,
+        "minimumWinnerHealthPercent": 9.375,
+        "worstWinnerDeficitFactor": 25.409,
+        "leadChanges": 5,
+        "flags": [
+          "near-extinction-survival",
+          "major-comeback",
+          "favorite-collapsed",
+          "late-reversal",
+          "volatile-lead",
+          "major-dominance-swing"
+        ]
+      },
+      "final": {
+        "frameCount": 2790,
+        "matchEndFrame": 2775,
+        "winnerTeamId": "gold",
+        "endedBy": "elimination",
+        "teams": [
+          {
+            "id": "cyan",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          },
+          {
+            "id": "magenta",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          },
+          {
+            "id": "gold",
+            "alive": 1,
+            "members": 4,
+            "health": 102.5625,
+            "powerupStrength": 202.50200892857143,
+            "effectiveStrength": 274.68920758928573
+          },
+          {
+            "id": "lime",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          }
+        ]
+      },
+      "rank": 17,
+      "selected": true
+    },
+    {
+      "seed": "seed-1302",
+      "evaluatorId": "engaging-v2",
+      "score": 822.712,
+      "tier": "S",
+      "summary": {
+        "winnerTeamId": "cyan",
+        "endedBy": "elimination",
+        "durationFrames": 2889,
+        "finalWinnerHealthPercent": 104.601,
+        "minimumWinnerHealthPercent": 0.694,
+        "worstWinnerDeficitFactor": 426.353,
+        "leadChanges": 3,
+        "flags": [
+          "near-extinction-survival",
+          "major-comeback",
+          "one-vs-many-clutch",
+          "favorite-collapsed",
+          "late-reversal",
+          "volatile-lead",
+          "major-dominance-swing",
+          "high-late-uncertainty"
+        ]
+      },
+      "final": {
+        "frameCount": 2910,
+        "matchEndFrame": 2889,
+        "winnerTeamId": "cyan",
+        "endedBy": "elimination",
+        "teams": [
+          {
+            "id": "cyan",
+            "alive": 1,
+            "members": 4,
+            "health": 75.3125,
+            "powerupStrength": 0,
+            "effectiveStrength": 75.3125
+          },
+          {
+            "id": "magenta",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          },
+          {
+            "id": "gold",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          },
+          {
+            "id": "lime",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          }
+        ]
+      },
+      "rank": 18,
+      "selected": true
+    },
+    {
+      "seed": "seed-4024",
+      "evaluatorId": "engaging-v2",
+      "score": 819.761,
+      "tier": "S",
+      "summary": {
+        "winnerTeamId": "magenta",
+        "endedBy": "elimination",
+        "durationFrames": 3210,
+        "finalWinnerHealthPercent": 278.299,
+        "minimumWinnerHealthPercent": 9.896,
+        "worstWinnerDeficitFactor": 23.03,
+        "leadChanges": 7,
+        "flags": [
+          "near-extinction-survival",
+          "major-comeback",
+          "one-vs-many-clutch",
+          "favorite-collapsed",
+          "late-reversal",
+          "volatile-lead",
+          "major-dominance-swing",
+          "high-late-uncertainty"
+        ]
+      },
+      "final": {
+        "frameCount": 3210,
+        "matchEndFrame": 3210,
+        "winnerTeamId": "magenta",
+        "endedBy": "elimination",
+        "teams": [
+          {
+            "id": "cyan",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          },
+          {
+            "id": "magenta",
+            "alive": 1,
+            "members": 4,
+            "health": 200.375,
+            "powerupStrength": 153.06187500000001,
+            "effectiveStrength": 330.47759375
+          },
+          {
+            "id": "gold",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          },
+          {
+            "id": "lime",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          }
+        ]
+      },
+      "rank": 19,
+      "selected": true
+    },
+    {
+      "seed": "seed-4403",
+      "evaluatorId": "engaging-v2",
+      "score": 815.954,
+      "tier": "S",
+      "summary": {
+        "winnerTeamId": "magenta",
+        "endedBy": "elimination",
+        "durationFrames": 2535,
+        "finalWinnerHealthPercent": 28.125,
+        "minimumWinnerHealthPercent": 21.181,
+        "worstWinnerDeficitFactor": 11.96,
+        "leadChanges": 6,
+        "flags": [
+          "major-comeback",
+          "one-vs-many-clutch",
+          "favorite-collapsed",
+          "late-reversal",
+          "volatile-lead",
+          "major-dominance-swing",
+          "high-late-uncertainty"
+        ]
+      },
+      "final": {
+        "frameCount": 2550,
+        "matchEndFrame": 2535,
+        "winnerTeamId": "magenta",
+        "endedBy": "elimination",
+        "teams": [
+          {
+            "id": "cyan",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          },
+          {
+            "id": "magenta",
+            "alive": 1,
+            "members": 4,
+            "health": 20.25,
+            "powerupStrength": 0,
+            "effectiveStrength": 20.25
+          },
+          {
+            "id": "gold",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          },
+          {
+            "id": "lime",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          }
+        ]
+      },
+      "rank": 20,
+      "selected": true
+    }
+  ],
+  "top": [
+    {
+      "seed": "seed-3996",
+      "evaluatorId": "engaging-v2",
+      "score": 878.079,
+      "tier": "S",
+      "summary": {
+        "winnerTeamId": "lime",
+        "endedBy": "elimination",
+        "durationFrames": 2437,
+        "finalWinnerHealthPercent": 250.694,
+        "minimumWinnerHealthPercent": 2.083,
+        "worstWinnerDeficitFactor": 147.176,
+        "leadChanges": 5,
+        "flags": [
+          "near-extinction-survival",
+          "major-comeback",
+          "one-vs-many-clutch",
+          "favorite-collapsed",
+          "late-reversal",
+          "volatile-lead",
+          "major-dominance-swing",
+          "high-late-uncertainty"
+        ]
+      },
+      "final": {
+        "frameCount": 2460,
+        "matchEndFrame": 2437,
+        "winnerTeamId": "lime",
+        "endedBy": "elimination",
+        "teams": [
+          {
+            "id": "cyan",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          },
+          {
+            "id": "magenta",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          },
+          {
+            "id": "gold",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          },
+          {
+            "id": "lime",
+            "alive": 1,
+            "members": 4,
+            "health": 180.5,
+            "powerupStrength": 202.77750000000003,
+            "effectiveStrength": 352.860875
+          }
+        ]
+      },
+      "rank": 1,
+      "selected": true
+    },
+    {
+      "seed": "seed-4710",
+      "evaluatorId": "engaging-v2",
+      "score": 870.582,
+      "tier": "S",
+      "summary": {
+        "winnerTeamId": "lime",
+        "endedBy": "elimination",
+        "durationFrames": 2356,
+        "finalWinnerHealthPercent": 326.215,
+        "minimumWinnerHealthPercent": 18.75,
+        "worstWinnerDeficitFactor": 21.04,
+        "leadChanges": 4,
+        "flags": [
+          "near-extinction-survival",
+          "major-comeback",
+          "one-vs-many-clutch",
+          "favorite-collapsed",
+          "late-reversal",
+          "volatile-lead",
+          "major-dominance-swing",
+          "high-late-uncertainty"
+        ]
+      },
+      "final": {
+        "frameCount": 2370,
+        "matchEndFrame": 2356,
+        "winnerTeamId": "lime",
+        "endedBy": "elimination",
+        "teams": [
+          {
+            "id": "cyan",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          },
+          {
+            "id": "magenta",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          },
+          {
+            "id": "gold",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          },
+          {
+            "id": "lime",
+            "alive": 1,
+            "members": 4,
+            "health": 234.875,
+            "powerupStrength": 151.8375,
+            "effectiveStrength": 363.936875
+          }
+        ]
+      },
+      "rank": 2,
+      "selected": true
+    },
+    {
+      "seed": "seed-3983",
+      "evaluatorId": "engaging-v2",
+      "score": 869.071,
+      "tier": "S",
+      "summary": {
+        "winnerTeamId": "lime",
+        "endedBy": "elimination",
+        "durationFrames": 2640,
+        "finalWinnerHealthPercent": 197.786,
+        "minimumWinnerHealthPercent": 3.819,
+        "worstWinnerDeficitFactor": 116.766,
+        "leadChanges": 3,
+        "flags": [
+          "near-extinction-survival",
+          "major-comeback",
+          "one-vs-many-clutch",
+          "favorite-collapsed",
+          "late-reversal",
+          "volatile-lead",
+          "major-dominance-swing"
+        ]
+      },
+      "final": {
+        "frameCount": 2640,
+        "matchEndFrame": 2640,
+        "winnerTeamId": "lime",
+        "endedBy": "elimination",
+        "teams": [
+          {
+            "id": "cyan",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          },
+          {
+            "id": "magenta",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          },
+          {
+            "id": "gold",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          },
+          {
+            "id": "lime",
+            "alive": 1,
+            "members": 4,
+            "health": 142.40625,
+            "powerupStrength": 168.58968750000003,
+            "effectiveStrength": 285.70748437500004
+          }
+        ]
+      },
+      "rank": 3,
+      "selected": true
+    },
+    {
+      "seed": "seed-4565",
+      "evaluatorId": "engaging-v2",
+      "score": 861.375,
+      "tier": "S",
+      "summary": {
+        "winnerTeamId": "cyan",
+        "endedBy": "elimination",
+        "durationFrames": 3240,
+        "finalWinnerHealthPercent": 163.628,
+        "minimumWinnerHealthPercent": 5.556,
+        "worstWinnerDeficitFactor": 86.497,
+        "leadChanges": 8,
+        "flags": [
+          "near-extinction-survival",
+          "major-comeback",
+          "one-vs-many-clutch",
+          "favorite-collapsed",
+          "late-reversal",
+          "volatile-lead",
+          "major-dominance-swing",
+          "high-late-uncertainty"
+        ]
+      },
+      "final": {
+        "frameCount": 3240,
+        "matchEndFrame": 3240,
+        "winnerTeamId": "cyan",
+        "endedBy": "elimination",
+        "teams": [
+          {
+            "id": "cyan",
+            "alive": 1,
+            "members": 4,
+            "health": 117.8125,
+            "powerupStrength": 127.12500000000001,
+            "effectiveStrength": 225.86875
+          },
+          {
+            "id": "magenta",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          },
+          {
+            "id": "gold",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          },
+          {
+            "id": "lime",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          }
+        ]
+      },
+      "rank": 4,
+      "selected": true
+    },
+    {
+      "seed": "seed-4476",
+      "evaluatorId": "engaging-v2",
+      "score": 855.021,
+      "tier": "S",
+      "summary": {
+        "winnerTeamId": "lime",
+        "endedBy": "elimination",
+        "durationFrames": 2611,
+        "finalWinnerHealthPercent": 289.063,
+        "minimumWinnerHealthPercent": 0.694,
+        "worstWinnerDeficitFactor": 673.507,
+        "leadChanges": 4,
+        "flags": [
+          "near-extinction-survival",
+          "major-comeback",
+          "one-vs-many-clutch",
+          "favorite-collapsed",
+          "late-reversal",
+          "volatile-lead",
+          "major-dominance-swing",
+          "high-late-uncertainty"
+        ]
+      },
+      "final": {
+        "frameCount": 2640,
+        "matchEndFrame": 2611,
+        "winnerTeamId": "lime",
+        "endedBy": "elimination",
+        "teams": [
+          {
+            "id": "cyan",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          },
+          {
+            "id": "magenta",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          },
+          {
+            "id": "gold",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          },
+          {
+            "id": "lime",
+            "alive": 1,
+            "members": 4,
+            "health": 208.125,
+            "powerupStrength": 282.10968750000006,
+            "effectiveStrength": 447.91823437500005
+          }
+        ]
+      },
+      "rank": 5,
+      "selected": true
+    },
+    {
+      "seed": "seed-4152",
+      "evaluatorId": "engaging-v2",
+      "score": 853.604,
+      "tier": "S",
+      "summary": {
+        "winnerTeamId": "gold",
+        "endedBy": "elimination",
+        "durationFrames": 3250,
+        "finalWinnerHealthPercent": 344.878,
+        "minimumWinnerHealthPercent": 0.694,
+        "worstWinnerDeficitFactor": 446.224,
+        "leadChanges": 2,
+        "flags": [
+          "near-extinction-survival",
+          "major-comeback",
+          "one-vs-many-clutch",
+          "favorite-collapsed",
+          "late-reversal",
+          "major-dominance-swing"
+        ]
+      },
+      "final": {
+        "frameCount": 3270,
+        "matchEndFrame": 3250,
+        "winnerTeamId": "gold",
+        "endedBy": "elimination",
+        "teams": [
+          {
+            "id": "cyan",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          },
+          {
+            "id": "magenta",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          },
+          {
+            "id": "gold",
+            "alive": 1,
+            "members": 4,
+            "health": 248.3125,
+            "powerupStrength": 297.89343750000006,
+            "effectiveStrength": 501.52192187500003
+          },
+          {
+            "id": "lime",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          }
+        ]
+      },
+      "rank": 6,
+      "selected": true
+    },
+    {
+      "seed": "seed-1736",
+      "evaluatorId": "engaging-v2",
+      "score": 853.029,
+      "tier": "S",
+      "summary": {
+        "winnerTeamId": "cyan",
+        "endedBy": "elimination",
+        "durationFrames": 2741,
+        "finalWinnerHealthPercent": 138.194,
+        "minimumWinnerHealthPercent": 13.021,
+        "worstWinnerDeficitFactor": 35.924,
+        "leadChanges": 4,
+        "flags": [
+          "near-extinction-survival",
+          "major-comeback",
+          "one-vs-many-clutch",
+          "favorite-collapsed",
+          "late-reversal",
+          "volatile-lead",
+          "major-dominance-swing"
+        ]
+      },
+      "final": {
+        "frameCount": 2760,
+        "matchEndFrame": 2741,
+        "winnerTeamId": "cyan",
+        "endedBy": "elimination",
+        "teams": [
+          {
+            "id": "cyan",
+            "alive": 1,
+            "members": 4,
+            "health": 99.5,
+            "powerupStrength": 257.33250000000004,
+            "effectiveStrength": 318.232625
+          },
+          {
+            "id": "magenta",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          },
+          {
+            "id": "gold",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          },
+          {
+            "id": "lime",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          }
+        ]
+      },
+      "rank": 7,
+      "selected": true
+    },
+    {
+      "seed": "seed-3654",
+      "evaluatorId": "engaging-v2",
+      "score": 847.227,
+      "tier": "S",
+      "summary": {
+        "winnerTeamId": "cyan",
+        "endedBy": "elimination",
+        "durationFrames": 2695,
+        "finalWinnerHealthPercent": 314.366,
+        "minimumWinnerHealthPercent": 15.278,
+        "worstWinnerDeficitFactor": 33.507,
+        "leadChanges": 4,
+        "flags": [
+          "near-extinction-survival",
+          "major-comeback",
+          "one-vs-many-clutch",
+          "favorite-collapsed",
+          "late-reversal",
+          "volatile-lead",
+          "major-dominance-swing"
+        ]
+      },
+      "final": {
+        "frameCount": 2700,
+        "matchEndFrame": 2695,
+        "winnerTeamId": "cyan",
+        "endedBy": "elimination",
+        "teams": [
+          {
+            "id": "cyan",
+            "alive": 1,
+            "members": 4,
+            "health": 226.34375,
+            "powerupStrength": 246.52473214285715,
+            "effectiveStrength": 435.8897723214286
+          },
+          {
+            "id": "magenta",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          },
+          {
+            "id": "gold",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          },
+          {
+            "id": "lime",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          }
+        ]
+      },
+      "rank": 8,
+      "selected": true
+    },
+    {
+      "seed": "seed-2849",
+      "evaluatorId": "engaging-v2",
+      "score": 846.976,
+      "tier": "S",
+      "summary": {
+        "winnerTeamId": "lime",
+        "endedBy": "elimination",
+        "durationFrames": 2772,
+        "finalWinnerHealthPercent": 178.993,
+        "minimumWinnerHealthPercent": 6.944,
+        "worstWinnerDeficitFactor": 50.398,
+        "leadChanges": 5,
+        "flags": [
+          "near-extinction-survival",
+          "major-comeback",
+          "one-vs-many-clutch",
+          "favorite-collapsed",
+          "late-reversal",
+          "volatile-lead",
+          "major-dominance-swing"
+        ]
+      },
+      "final": {
+        "frameCount": 2790,
+        "matchEndFrame": 2772,
+        "winnerTeamId": "lime",
+        "endedBy": "elimination",
+        "teams": [
+          {
+            "id": "cyan",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          },
+          {
+            "id": "magenta",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          },
+          {
+            "id": "gold",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          },
+          {
+            "id": "lime",
+            "alive": 1,
+            "members": 4,
+            "health": 128.875,
+            "powerupStrength": 236.94093750000002,
+            "effectiveStrength": 330.274796875
+          }
+        ]
+      },
+      "rank": 9,
+      "selected": true
+    },
+    {
+      "seed": "seed-3624",
+      "evaluatorId": "engaging-v2",
+      "score": 846.725,
+      "tier": "S",
+      "summary": {
+        "winnerTeamId": "magenta",
+        "endedBy": "elimination",
+        "durationFrames": 3045,
+        "finalWinnerHealthPercent": 77.387,
+        "minimumWinnerHealthPercent": 19.444,
+        "worstWinnerDeficitFactor": 26.381,
+        "leadChanges": 4,
+        "flags": [
+          "near-extinction-survival",
+          "major-comeback",
+          "one-vs-many-clutch",
+          "favorite-collapsed",
+          "late-reversal",
+          "volatile-lead",
+          "major-dominance-swing",
+          "high-late-uncertainty"
+        ]
+      },
+      "final": {
+        "frameCount": 3060,
+        "matchEndFrame": 3045,
+        "winnerTeamId": "magenta",
+        "endedBy": "elimination",
+        "teams": [
+          {
+            "id": "cyan",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          },
+          {
+            "id": "magenta",
+            "alive": 1,
+            "members": 4,
+            "health": 55.71875,
+            "powerupStrength": 196.62160714285716,
+            "effectiveStrength": 222.8471160714286
+          },
+          {
+            "id": "gold",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          },
+          {
+            "id": "lime",
+            "alive": 0,
+            "members": 4,
+            "health": 0,
+            "powerupStrength": 0,
+            "effectiveStrength": 0
+          }
+        ]
+      },
+      "rank": 10,
+      "selected": true
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+Apply this patch over the project after both of these earlier patches:
+1. kinetic-arena-offline-replay-recorder-patch.zip
+2. kinetic-arena-offline-replay-audio-fix-patch.zip
+
+Replace matching files. The default delivery preset becomes instagram-hd-30.

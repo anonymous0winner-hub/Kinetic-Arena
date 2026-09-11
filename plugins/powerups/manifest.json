@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "plugins": [
+    { "id": "OVERCHARGE", "name": "Overcharge", "module": "./overcharge/powerup.js" },
+    { "id": "AEGIS", "name": "Aegis", "module": "./aegis/powerup.js" },
+    { "id": "TURBO", "name": "Turbo", "module": "./turbo/powerup.js" },
+    { "id": "REGEN", "name": "Regeneration", "module": "./regen/powerup.js" },
+    { "id": "FOCUS", "name": "Focus", "module": "./focus/powerup.js" }
+  ]
+}

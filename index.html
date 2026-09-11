@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kinetic Arena</title>
+    <link rel="stylesheet" href="css/core-layout.css">
+</head>
+<body>
+    <main id="arena-viewport">
+        <canvas id="gameCanvas" aria-label="Kinetic Arena simulation"></canvas>
+
+        <div id="ui-layer">
+            <div id="score-grid" aria-label="Team scores"></div>
+            <div id="zone-status" aria-live="polite"></div>
+            <div id="status-text" aria-live="assertive"></div>
+            <div id="loading-status">Loading arena modules…</div>
+        </div>
+    </main>
+
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>

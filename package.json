@@ -1,0 +1,13 @@
+{
+  "name": "kinetic-arena-modular",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node tests/smoke.mjs && node tests/runtime-smoke.mjs && node tests/offline-audio-timing.mjs",
+    "record": "node tools/record-match.mjs",
+    "find-seeds": "node tools/find-seeds.mjs",
+    "record:exact": "node tools/record-match-exact.mjs",
+    "record:legacy": "node tools/record-match-legacy.mjs",
+    "verify:instagram": "node tools/verify-instagram-video.mjs"
+  }
+}

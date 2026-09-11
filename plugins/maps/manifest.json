@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "plugins": [
+    {
+      "id": "cross-compression",
+      "name": "Cross Compression",
+      "description": "The original four-quadrant map with static projectile-blocking walls, rotating projectile-pass walls, and three collapse stages.",
+      "module": "./cross-compression/map.js"
+    },
+    {
+      "id": "portrait-circuit",
+      "name": "Portrait Circuit",
+      "description": "Clear fixed 1080x1920 arena with four team homes, two striped moving paddles, an obvious safe box, escalating damage, and a deterministic sub-60-second match limit.",
+      "module": "./portrait-circuit/map.js"
+    },
+    {
+      "id": "diagonal-confluence",
+      "name": "Diagonal Confluence",
+      "description": "Fixed 1080x1920 arena with angled funnel rails, an open central chamber, two opposing side shuttles, and a sub-60-second collapse sequence.",
+      "module": "./diagonal-confluence/map.js"
+    },
+    {
+      "id": "team-mixer",
+      "name": "Team Mixer",
+  
+      "description": "Fixed 1080x1920 arena with angled funnel rails, an open central chamber, two opposing side shuttles, and a sub-60-second collapse sequence.",
+      "module": "./team-mixer/map.js"
+    }
+  ]
+}
