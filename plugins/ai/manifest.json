@@ -7,6 +7,12 @@
       "description": "The original teamwork, survival, resource, pursuit, and predictive-fire behavior.",
       "module": "./swarm-tactician/ai.js"
     },
+   {
+      "id": "default-updated",
+      "name": "dafault updated",
+      "description": " ",
+      "module": "./default-updated/ai.js"
+    },
     {
       "id": "sentinel-vector",
       "name": "Sentinel Vector",

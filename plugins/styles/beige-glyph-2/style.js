@@ -1367,29 +1367,29 @@ export function createStyle({ options = {} } = {}) {
             const x = game.width / 2 - boxWidth / 2;
 
             ctx.save();
-            drawPanel(ctx, x, y, boxWidth, boxHeight, 7);
-            ctx.fillStyle = '#111111';
-            ctx.font = `850 ${fontSize}px ${FONT_STACK}`;
-            ctx.textAlign = 'center';
-            ctx.textBaseline = 'middle';
-            ctx.fillText(`${remainingSeconds}s`, game.width / 2, y + textY);
+            // drawPanel(ctx, x, y, boxWidth, boxHeight, 7);
+            // ctx.fillStyle = '#111111';
+            // ctx.font = `850 ${fontSize}px ${FONT_STACK}`;
+            // ctx.textAlign = 'center';
+            // ctx.textBaseline = 'middle';
+            // ctx.fillText(`${remainingSeconds}s`, game.width / 2, y + textY);
 
-            const progressX = x + 15;
-            const progressWidth = boxWidth - 30;
-            roundedRectPath(ctx, progressX, progressY, progressWidth, progressHeight, progressHeight / 2);
-            ctx.fillStyle = 'rgba(17, 17, 17, 0.13)';
-            ctx.fill();
-            roundedRectPath(
-                ctx,
-                progressX,
-                progressY,
-                Math.max(3, progressWidth * ratio),
-                progressHeight,
-                progressHeight / 2
-            );
-            ctx.fillStyle = ratio > 0.5 ? '#097e5c' : (ratio > 0.2 ? '#ffd83e' : '#d90100');
-            ctx.fill();
-            ctx.restore();
+            // const progressX = x + 15;
+            // const progressWidth = boxWidth - 30;
+            // roundedRectPath(ctx, progressX, progressY, progressWidth, progressHeight, progressHeight / 2);
+            // ctx.fillStyle = 'rgba(17, 17, 17, 0.13)';
+            // ctx.fill();
+            // roundedRectPath(
+            //     ctx,
+            //     progressX,
+            //     progressY,
+            //     Math.max(3, progressWidth * ratio),
+            //     progressHeight,
+            //     progressHeight / 2
+            // );
+            // ctx.fillStyle = ratio > 0.5 ? '#097e5c' : (ratio > 0.2 ? '#ffd83e' : '#d90100');
+            // ctx.fill();
+            // ctx.restore();
         },
 
         drawClimaxRing(ctx, game, radius, alpha, team) {

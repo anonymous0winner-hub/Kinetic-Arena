@@ -1,0 +1,112 @@
+### Seed Finding Commands
+
+Base Command:*npm run find-seeds -- [parameters]
+
+Examples:
+
+npm run find-seeds -- --prefix benchmark --count 100 --workers 6
+
+
+npm run find-seeds -- --prefix arena --count 5000 --workers 6 --batch-size 25 --min-score 220 --top 50 --selected-limit 30 --output results/arena-5000.json
+
+
+
+Available Parameters:
+
+--prefix <string>: Sets the name prefix for the generated seeds (e.g., arena).
+
+
+--count <n>: The total number of seeds to search and evaluate.
+
+
+--output <filepath>: The destination path to save the JSON results file.
+
+
+--workers <n>: The number of parallel logic workers to launch, up to a maximum of 8.
+
+
+--batch-size <n>: The number of seeds assigned to one worker call.
+
+
+--sample-every <n>: The state sample interval measured in simulation frames.
+
+
+--details: Includes components and readable reasoning for the scores in the output.
+
+
+--all-results: Retains every evaluated seed result in memory, rather than only keeping the bounded candidates.
+
+
+--min-score <n>: Sets the minimum numerical Drama Score threshold for a seed to be selected.
+
+
+--min-tier <tier>: Sets the minimum quality tier required (S, A, B, C, or D).
+
+
+--top <n>: The number of globally highest-scoring seeds to retain in the final output.
+
+
+--selected-limit <n>: The maximum number of threshold-passing seeds retained per worker to limit memory usage.
+
+
+
+---
+
+### Recording Commands
+
+Base Command:*npm run record -- [parameters]
+
+Alternative Command Variants:
+
+npm run record:legacy -- [parameters]: Runs the older real-time MediaRecorder capture path.
+
+
+npm run record:exact -- [parameters]: Runs the previous screenshot-based exporter for diagnostic purposes.
+
+
+npm run verify:instagram -- <filepath>: Validates a finished file against Instagram's strict codec, framerate, and bitrate requirements.
+
+
+
+Examples:
+
+npm run record (Defaults to a 1080×1920, 60 FPS WebM)
+
+
+npm run record -- --seed seed-455 --delivery-preset instagram-hd-30 --output recordings/seed-455-instagram.mp4 --workers 6 --threads 6 --max-simulation-frames 3900
+
+
+
+Available Parameters:
+
+--seed <string>: The exact seed ID of the match you want to record.
+
+
+--fps <number>: Sets the output render frame rate, usually 30 or 60.
+
+
+--format <string>: Sets the output video container format, such as mp4 (defaults to webm).
+
+
+--output <filepath>: The destination path to save the recorded video file.
+
+
+--workers <n>: The number of independent Chromium render processes to split the output frame range across.
+
+
+--threads <n>: The number of FFmpeg filter/encoder threads allocated for software fallback rendering.
+
+
+--max-simulation-frames <n>: Sets a hard maximum frame limit to stop the recording.
+
+
+--delivery-preset <preset-name>: Applies exact encoding profiles, accepting instagram-hd-30, instagram-smooth-60, or master.
+
+
+--encoder <auto|qsv|software>: Forces the hardware encoder selection, defaulting to auto (tries Intel Quick Sync, then falls back to libx264 software).
+
+
+--capture-speed <float>: Controls real-time simulation stretch (ignored by the offline renderer, used only by record:legacy).
+
+
+--source-codec: Sets the capture codec (ignored by the offline renderer, used only by record:legacy).

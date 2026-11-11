@@ -25,6 +25,13 @@
   
       "description": "Fixed 1080x1920 arena with angled funnel rails, an open central chamber, two opposing side shuttles, and a sub-60-second collapse sequence.",
       "module": "./team-mixer/map.js"
+    },
+    {
+      "id": "default-fit",
+      "name": "Default fit",
+  
+      "description": "Fixed 1080x1920 of original",
+      "module": "./default-fit/map.js"
     }
   ]
 }

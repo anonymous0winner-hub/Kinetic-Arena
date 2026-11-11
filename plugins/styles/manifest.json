@@ -38,6 +38,24 @@
       ]
     },
     {
+      "id": "beige-glyph-3",
+      "name": "Beige Glyph Dark",
+      "description": "Refined beige portrait to dark version.",
+      "module": "./beige-glyph-3/style.js",
+      "css": [
+        "./beige-glyph-3/style.css"
+      ]
+    },
+    {
+      "id": "default-updated",
+      "name": "default updated",
+      "description": "Refined default (neon-kinetic)",
+      "module": "./default-updated/style.js",
+      "css": [
+        "./default-updated/style.css"
+      ]
+    },
+    {
       "id": "flying-citadel",
       "name": "Flying Citadel",
       "description": "Detailed moonlit sci-fi flying-tank presentation with 3D hovercraft, compact floating health HUD chips, luminous rapid-fire projectiles, readable holographic powerups, and industrial citadel walls.",

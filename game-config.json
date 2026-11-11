@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "seed": "seed-455",
-  "timeScale": 1,
+  "seed": "arena-279",
+  "timeScale": 1.2,
   "targetFps": 60,
   "pluginRegistry": {
     "styles": "./plugins/styles/manifest.json",
@@ -11,14 +11,14 @@
     "audio": "./plugins/audio/manifest.json"
   },
   "plugins": {
-    "style": "beige-glyph-2",
-    "map": "team-mixer",
+    "style": "beige-glyph-3",
+    "map": "default-fit",
     "ai": {
       "enabled": [
         "sentinel-vector",
         "swarm-tactician"
       ],
-      "default": "sentinel-vector"
+      "default": "swarm-tactician"
     },
     "powerups": {
       "enabled": [
@@ -53,7 +53,12 @@
         "teamCohesion": 1.1,
         "powerupInterest": 1.15
       },
-      "swarm-tactician": {}
+      "swarm-tactician": {},
+      "default-updated": {
+        "aggression": 1.08,
+        "teamCohesion": 1.1,
+        "powerupInterest": 1.15
+      }
     },
     "audio": {
       "intensity": 0.9,
@@ -70,7 +75,7 @@
       "id": "cyan",
       "label": "Blue",
       "members": 4,
-      "defaultAI": "sentinel-vector",
+      "defaultAI": "swarm-tactician",
       "memberAI": {
         "4": "swarm-tactician"
       }
@@ -88,16 +93,16 @@
       "id": "gold",
       "label": "Yellow",
       "members": 4,
-      "defaultAI": "sentinel-vector",
+      "defaultAI": "swarm-tactician",
       "memberAI": {
-        "4": "swarm-tactician"
+        "4": "sentinel-vector"
       }
     },
     {
       "id": "lime",
       "label": "Green",
       "members": 4,
-      "defaultAI": "sentinel-vector",
+      "defaultAI": "swarm-tactician",
       "memberAI": {
         "4": "swarm-tactician"
       }
@@ -117,8 +122,8 @@
     "override": null
   },
   "match": {
-    "maxDurationSeconds": 60,
-    "winnerDisplayFrames": 180,
+    "maxDurationSeconds": 100,
+    "winnerDisplayFrames": 30,
     "autoRestart": true,
     "restartSeedPolicy": "repeat",
     "timeoutWinnerRule": "alive-then-power"

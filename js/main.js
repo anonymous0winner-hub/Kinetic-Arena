@@ -715,7 +715,7 @@ async function bootstrap() {
                         worldWidth: game.width, worldHeight: game.height
                     });
                     game.emitEffect('shield-hit', { bot, projectile, x: projectile.x, y: projectile.y });
-                    rawDamage /= 0.9;
+                    rawDamage *= 0.05;
                 }
                 const totalDamage = Math.max(1, Math.round(rawDamage * defense.damageMultiplier));
                 bot.vx += projectile.vx * 0.25;
@@ -829,17 +829,18 @@ async function bootstrap() {
 
     function updateClimax() {
         game.climaxTimer += 1;
-        for (const bot of game.bots) {
-            if (!bot.alive) continue;
-            bot.vx += (game.arena.centerX - bot.x) * 0.005;
-            bot.vy += (game.arena.centerY - bot.y) * 0.005;
-            bot.vx *= 0.92;
-            bot.vy *= 0.92;
-            bot.x += bot.vx;
-            bot.y += bot.vy;
-        }
+        
+        // for (const bot of game.bots) {
+        //     if (!bot.alive) continue;
+        //     bot.vx += (game.arena.centerX - bot.x) * 0.005;
+        //     bot.vy += (game.arena.centerY - bot.y) * 0.005;
+        //     bot.vx *= 0.92;
+        //     bot.vy *= 0.92;
+        //     bot.x += bot.vx;
+        //     bot.y += bot.vy;
+        // }
         if (!game.control.preventAutoRestart && gameConfig.match.autoRestart && game.climaxTimer > game.match.winnerDisplayFrames) {
-            initialiseGame({ incrementRound: true });
+             initialiseGame({ incrementRound: true });
         }
     }
 
