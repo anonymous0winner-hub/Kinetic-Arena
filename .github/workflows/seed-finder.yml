@@ -1,4 +1,4 @@
-name: Run Seed Finder Overnight
+name: Run Seed Finder
 
 # The workflow_dispatch trigger creates a manual "Run" button in the GitHub UI
 on:
@@ -29,17 +29,17 @@ jobs:
           CHROMIUM_PATH: /usr/bin/chromium-browser
         run: |
           npm run find-seeds -- \
-            --prefix arena-overnight \
+            --prefix A \
             --count 20000 \
             --workers 2 \
             --batch-size 25 \
-            --top 50 \
+            --top 100 \
             --selected-limit 30 \
-            --output arena-overnight-10000.json
+            --output Seeds_11_11-01.json
 
       - name: Upload JSON Results
         # This step guarantees the JSON file is saved and downloadable even if you close the tab
         uses: actions/upload-artifact@v4
         with:
           name: seed-results
-          path: arena-overnight-10000.json
+          path: Seeds_11_11-01.json
