@@ -1,6 +1,5 @@
 name: Run Seed Finder
 
-# The workflow_dispatch trigger creates a manual "Run" button in the GitHub UI
 on:
   workflow_dispatch: 
 
@@ -16,30 +15,31 @@ jobs:
         with:
           node-version: '22'
 
-      - name: Install Headless Chromium
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y chromium-browser
-
       - name: Install Project Dependencies
+        env:
+          # Bypasses a massive, unnecessary Chromium download since we use the pre-installed Chrome
+          PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: "true"
         run: npm install
 
       - name: Execute Seed Finder
         env:
-          CHROMIUM_PATH: /usr/bin/chromium-browser
-        run: |
-          npm run find-seeds -- \
-            --prefix A \
-            --count 20000 \
-            --workers 2 \
-            --batch-size 25 \
-            --top 100 \
-            --selected-limit 30 \
-            --output Seeds_11_11-01.json
+          CHROMIUM_PATH: /usr/bin/google-chrome
+        # The '>' operator safely folds this into a single command, eliminating fragile backslashes
+        run: >
+          timeout 350m
+          npm run find-seeds --
+          --prefix A
+          --count 10000
+          --workers 2
+          --batch-size 25
+          --top 50
+          --selected-limit 30
+          --output arena-seed-finder-10000.json
 
       - name: Upload JSON Results
-        # This step guarantees the JSON file is saved and downloadable even if you close the tab
+        # Forces the upload to execute even if the step above times out or fails
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: seed-results
-          path: Seeds_11_11-01.json
+          path: arena-seed-finder-10000.json
